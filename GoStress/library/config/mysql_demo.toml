@@ -1,0 +1,7 @@
+service_name = "mysql_demo"
+[mysql]
+addr = "add:port"
+database = "xxx"
+username = "xxx"
+password = "xxx"
+charset = "utf8mb4"

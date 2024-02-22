@@ -1,0 +1,6 @@
+service_name = "es_demo"
+[es]
+host = "127.0.x.xx"
+port = "xxx"
+username = "xxx"
+password = "xxx"

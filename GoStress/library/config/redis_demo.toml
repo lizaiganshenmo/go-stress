@@ -1,0 +1,4 @@
+service_name = "redis_demo"
+[redis]
+addr = "add:port"
+password = "xxx"

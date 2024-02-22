@@ -1,0 +1,6 @@
+service_name = "es_stress"
+[es]
+host = "123.56.67.72"
+port = "9200"
+username = "elastic"
+password = "ggbond"

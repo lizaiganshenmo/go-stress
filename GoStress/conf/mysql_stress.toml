@@ -1,0 +1,7 @@
+service_name = "mysql_stress"
+[mysql]
+addr = "127.0.0.1:3306"
+database = "mixStew"
+username = "test"
+password = "test"
+charset = "utf8mb4"

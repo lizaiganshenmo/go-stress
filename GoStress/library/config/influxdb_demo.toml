@@ -1,0 +1,4 @@
+service_name = "influxdb_demo"
+[influxdb]
+addr = "http://localhost:8086"
+token = "xxx"

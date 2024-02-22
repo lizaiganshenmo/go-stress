@@ -1,0 +1,5 @@
+service_name = "rabbitmq_demo"
+[rabbitmq]
+addr = "add:port"
+username = "xxx"
+password = "xxx"

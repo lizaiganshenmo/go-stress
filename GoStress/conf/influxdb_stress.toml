@@ -1,0 +1,4 @@
+service_name = "influxdb_stress"
+[influxdb]
+addr = "http://localhost:8086"
+token = "EcfwJhvnO_bFueY9Bz86CY02GCzLO8wIHEch9xB2g37lExVDi2eQyn4U5lp6HVb3dF6Fqax8HngnZfRnyTVKwA=="
