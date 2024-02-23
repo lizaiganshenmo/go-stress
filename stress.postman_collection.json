@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "5b0f0b20-76f2-494c-bd24-8c20e2903eb7",
+		"name": "stress",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30059398"
+	},
+	"item": [
+		{
+			"name": "create task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "target_qps",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "just test api",
+							"type": "text"
+						},
+						{
+							"key": "task_file",
+							"type": "file",
+							"src": "/Users/saiyajin/Desktop/Stress/GoStress/cmd/api/create_task_demo.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8899/task/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8899",
+					"path": [
+						"task",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start task",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8899/task/start?task_id=43436190942371840",
+					"host": [
+						"localhost"
+					],
+					"port": "8899",
+					"path": [
+						"task",
+						"start"
+					],
+					"query": [
+						{
+							"key": "task_id",
+							"value": "43436190942371840"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stop task",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8899/task/stop?task_id=43436190942371840",
+					"host": [
+						"localhost"
+					],
+					"port": "8899",
+					"path": [
+						"task",
+						"stop"
+					],
+					"query": [
+						{
+							"key": "task_id",
+							"value": "43436190942371840"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change task qps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8899/task/change_qps?task_id=43684263991975936&target_qps=50",
+					"host": [
+						"localhost"
+					],
+					"port": "8899",
+					"path": [
+						"task",
+						"change_qps"
+					],
+					"query": [
+						{
+							"key": "task_id",
+							"value": "43684263991975936"
+						},
+						{
+							"key": "target_qps",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
