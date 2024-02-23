@@ -39,7 +39,7 @@
 
    该图是grafana接入InfluxDB数据源的展示，任务执行中支持更改QPS，可以阶梯式压测。
 
-   ![image-20240223204737525](/Users/saiyajin/Library/Application Support/typora-user-images/image-20240223204737525.png)
+   ![image-20240223204737525](https://github.com/lizaiganshenmo/pictures/blob/main/%E5%8E%8B%E6%B5%8Bdemo.jpg)
 
    
 
