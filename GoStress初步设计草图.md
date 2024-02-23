@@ -2,11 +2,11 @@
 
 - ### 整体草图
 
-  <img src="/Users/saiyajin/Documents/总体概览.png" alt="总体概览" style="zoom: 50%;" />
+  <img src="https://github.com/lizaiganshenmo/pictures/blob/main/%E6%80%BB%E4%BD%93%E6%A6%82%E8%A7%88.png" alt="总体概览" style="zoom: 50%;" />
 
   任务中心
 
-  <img src="/Users/saiyajin/Documents/分布式任务节点.png" alt="分布式任务节点" style="zoom:33%;" />
+  <img src="https://github.com/lizaiganshenmo/pictures/blob/main/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BB%BB%E5%8A%A1%E8%8A%82%E7%82%B9.png" alt="分布式任务节点" style="zoom:33%;" />
 
 - ### 节点介绍
 
@@ -227,8 +227,6 @@
    4. #### 任务分配策略
 
       当前任务的默认分配策略，根据节点的Cpu使用百分比/ 内存使用百分比/ 内存容量划分优先级
-  
-      <img src="/Users/saiyajin/Library/Application Support/typora-user-images/image-20240223202458551.png" alt="image-20240223202458551" style="zoom: 50%;" />
   
       
   
