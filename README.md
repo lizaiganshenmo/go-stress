@@ -34,8 +34,9 @@
 2. #### 创建任务、执行、停止
 
    通过http服务，调相关接口创建执行即可。
+   https://github.com/lizaiganshenmo/go-stress/blob/main/stress.postman_collection.json
 
-3. #### Demo展示
+4. #### Demo展示
 
    该图是grafana接入InfluxDB数据源的展示，任务执行中支持更改QPS，可以阶梯式压测。
 
